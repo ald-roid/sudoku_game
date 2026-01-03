@@ -1,0 +1,43 @@
+# PHP
+*.log
+*.cache
+*.tmp
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database (if you have local test databases)
+*.sql.backup
+*.sql.bak
+
+# Session files
+sessions/
+
+# Uploads (if any)
+uploads/
+tmp/
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules (if using npm)
+node_modules/
+package-lock.json
+
+# Config files with sensitive data (uncomment if needed)
+# config/db_connect.php
+
